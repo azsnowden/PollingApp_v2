@@ -12,6 +12,7 @@ submitButton.addEventListener("click", function(e){
     }
     console.log(teams)
     console.log(teamValue)
+    window.location = '/thankyou';
     // window.location.pathname = '/ThankYou'
     
     })
