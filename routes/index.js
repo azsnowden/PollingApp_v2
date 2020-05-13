@@ -14,4 +14,8 @@ router.get('/admin', function(req, res, next){
   res.render('admin')
 })
 
+router.get('/admin/login', function(req, res, next){
+  res.render('adminlogin')
+})
+
 module.exports = router;
